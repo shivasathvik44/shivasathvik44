@@ -146,9 +146,9 @@ A small, fast file organizer designed to make file management easier.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shivasathvik44&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=shivasathvik44&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivasathvik44&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivasathvik44&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 
 </div>
 
