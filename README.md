@@ -1,200 +1,83 @@
-<div align="center">
-
 # Shiva Sathvik
 
-**Cybersecurity · Software Engineering · Systems**
+**Software engineering, security, and the systems underneath.**
 
-`Build. Break. Understand. Secure.`
-
-CSE undergrad, 2027 · Hyderabad, India
-
-<p>
-<a href="https://github.com/shivasathvik44">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://x.com/YOUR-X-HANDLE">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-</a>
-&nbsp;
-<a href="mailto:posanishiva6@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-</p>
-
-</div>
+<sub>Computer Science undergraduate · Class of 2027 · Hyderabad, India</sub>
 
 <br>
 
-I build things that solve real problems, then take them apart to understand how they work — and how they fail.
+I like building software and then looking past the surface: how the pieces fit together, what happens when something fails, and where a system can be made safer or simpler.
 
-Right now that means **secure software, Linux internals, networking, and practical security tooling.**
+Most of my work is in **TypeScript and Python**. Outside of that, I'm learning more about **Linux internals, networking, and security engineering**.
 
-`Learn → Build → Break → Debug → Understand → Repeat`
+[GitHub](https://github.com/shivasathvik44) · [Email](mailto:posanishiva6@gmail.com)
 
-<br>
+![Current focus: security and systems](https://img.shields.io/badge/current%20focus-security%20%26%20systems-238636?style=flat-square&labelColor=161b22)
 
-## 🚀 What I'm Building
+---
 
-<table>
-<tr>
+## `~/projects`
 
-<td width="50%" valign="top">
+### 01 / [CyberShield](https://github.com/shivasathvik44/cybershield44)
 
-### 🛡️ CyberShield
+**Threat intelligence and vulnerability analysis, in one place.**
 
-Full-stack security operations platform for threat intelligence and vulnerability analysis.
+A full-stack security operations project for exploring vulnerability data, checking IP reputation, and making threat information easier to work with.
 
-* CVE search, IP reputation & threat scoring
-* Threat intelligence feeds
-* JWT authentication with role-based access control
-* Analytics dashboard
-* Rate limiting & intelligent caching
+- **Threat data:** CVE search, IP reputation checks, threat scoring, and intelligence feeds.
+- **Access:** JWT authentication and role-based authorization.
+- **Visibility:** An analytics dashboard for investigating the data.
+- **Backend concerns:** Rate limiting and caching to make repeated requests more manageable.
 
-`React` `TypeScript` `Node.js` `Express` `PostgreSQL`
+`React` · `TypeScript` · `Node.js` · `Express` · `PostgreSQL`
 
-**[→ Explore CyberShield](https://github.com/shivasathvik44/cybershield44)**
+**[Browse the repository →](https://github.com/shivasathvik44/cybershield44)**
 
-</td>
+### 02 / [AFOW](https://github.com/shivasathvik44/AFOW)
 
-<td width="50%" valign="top">
+**A file organizer that lets you see what will happen before it happens.**
 
-### 📂 AFOW
+AFOW is a Python utility for sorting messy directories without making file operations feel like a gamble.
 
-Point it at a directory. Let it organize the mess.
+- **Organize:** Automatically categorize files in a directory.
+- **Preview:** Use dry-run mode to inspect proposed changes first.
+- **Recover:** Undo support and collision-safe handling to avoid accidental overwrites.
+- **Use locally:** A lightweight Flask web interface.
+- **Test:** Automated checks with Pytest.
 
-A small, fast file organizer designed to make file management easier.
+`Python` · `Flask` · `Pytest`
 
-* Automatic file categorization
-* Dry-run mode
-* Undo support
-* Collision-safe file handling
-* Local web interface
-* Automated testing with Pytest
+**[Browse the repository →](https://github.com/shivasathvik44/AFOW)**
 
-`Python` `Flask` `Pytest`
+---
 
-**[→ Explore AFOW](https://github.com/shivasathvik44/AFOW)**
+## `~/toolbox`
 
-</td>
+The tools I use or work with, grouped by where they fit rather than by logo.
 
-</tr>
-</table>
+| Area | Tools |
+| --- | --- |
+| **Languages** | Python, TypeScript, JavaScript, C, C++, Bash |
+| **Web & APIs** | React, Node.js, Express, Flask, REST APIs |
+| **Data & UI** | PostgreSQL, Tailwind CSS |
+| **Systems & workflow** | Linux, Docker, Git, GitHub, Pytest |
 
-<br>
+### Areas I keep coming back to
 
-## 🧰 Tech Stack
+`Threat intelligence` · `Vulnerability analysis` · `Authentication` · `Access control` · `Networking` · `Filesystems`
 
-<table align="center">
+---
 
-<tr>
-<td align="right"><b>Languages</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,c,cpp,bash&theme=dark" />
-</td>
-</tr>
+## `~/currently-exploring`
 
-<tr>
-<td align="right"><b>Web & Data</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,postgresql&theme=dark" />
-</td>
-</tr>
+I'm interested in what happens below the application layer. Right now, that means spending more time with:
 
-<tr>
-<td align="right"><b>Systems & Tools</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=linux,docker,git,github&theme=dark" />
-</td>
-</tr>
+- **Linux internals:** how the operating system manages processes, files, and resources.
+- **Networking & network security:** understanding how systems communicate and where trust breaks down.
+- **Systems programming:** getting closer to the interfaces and constraints that higher-level tools abstract away.
+- **eBPF & kernel observability:** learning how to inspect system behavior at a lower level.
+- **Security tooling:** turning security concepts into utilities I can build, test, and understand.
 
-</table>
+---
 
-<br>
-
-<div align="center">
-
-`Threat Intelligence`
-`Vulnerability Analysis`
-`Authentication`
-`Access Control`
-`REST APIs`
-`Linux`
-`Filesystems`
-`Networking`
-
-</div>
-
-<br>
-
-## 🧠 Currently Learning
-
-<div align="center">
-
-`Security Engineering`
-`Linux Internals`
-`Networking & Network Security`
-`Systems Programming`
-`eBPF & Kernel Observability`
-`Security Tool Development`
-
-</div>
-
-<br>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shivasathvik44&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivasathvik44&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-
-</div>
-
-<br>
-
-## 🔥 Contribution Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=shivasathvik44&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-
-</div>
-<br>
-<br>
-
-## 📌 Featured Projects
-
-|                                 Project                                | Description                             |    Stack   |
-| :--------------------------------------------------------------------: | :-------------------------------------- | :--------: |
-| 🛡️ **[CyberShield](https://github.com/shivasathvik44/cybershield44)** | Security & threat intelligence platform | TypeScript |
-|          📂 **[AFOW](https://github.com/shivasathvik44/AFOW)**         | Fast file organization utility          |   Python   |
-
-<br>
-
-<div align="center">
-
-## 🌐 Connect
-
-<a href="https://github.com/shivasathvik44">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://x.com/YOUR-X-HANDLE">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-</a>
-&nbsp;
-<a href="mailto:posanishiva6@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br><br>
-
-### 🛡️ Build things worth breaking.
-
-Thanks for visiting.
-
-⭐ If you find something useful here, consider giving it a star.
-
-</div>
+<sub>I'm usually learning something by building it. If you want to talk about a project, security, or systems, [send me an email](mailto:posanishiva6@gmail.com).</sub>
