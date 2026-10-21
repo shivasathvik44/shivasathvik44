@@ -1,3 +1,4 @@
+
 <!-- ANIMATED PROFILE -->
 
 <div align="center">
@@ -20,86 +21,97 @@
 </div>
 
 <!-- END ANIMATED PROFILE -->
+
 # Shiva Sathvik
 
-**Software engineering, security, and the systems underneath.**
+**Software engineering · Security · Systems**
 
 <sub>Computer Science undergraduate · Class of 2027 · Hyderabad, India</sub>
 
-<br>
+I build software to understand what happens beneath the interface: how data moves, where trust boundaries sit, and what a system does when things go wrong.
 
-I like building software and then looking past the surface: how the pieces fit together, what happens when something fails, and where a system can be made safer or simpler.
-
-Most of my work is in **TypeScript and Python**. Outside of that, I'm learning more about **Linux internals, networking, and security engineering**.
+My work spans Python and TypeScript applications, applied security, and Linux systems. Lately, I've been spending more time on encryption, detection engineering, and tools that make complex behavior easier to inspect.
 
 [GitHub](https://github.com/shivasathvik44) · [Email](mailto:posanishiva6@gmail.com)
 
-![Current focus: security and systems](https://img.shields.io/badge/current%20focus-security%20%26%20systems-238636?style=flat-square&labelColor=161b22)
+---
+
+## Selected work
+
+### 01 / [VaultSync](https://github.com/shivasathvik44/pswdMngr)
+
+**A password manager built around client-side encryption.**
+
+A self-hosted project with a FastAPI backend, a Fedora desktop client, and a native Android client. The central design decision is to separate account authentication from the password that protects the vault.
+
+- Uses **Argon2id**, **AES-256-GCM**, and key wrapping to protect encrypted vault records.
+- Implements account sessions, encrypted-record APIs, and synchronization infrastructure.
+- Builds toward offline access and cross-device workflows with **PySide6** and **Kotlin** clients.
+
+`Python` · `FastAPI` · `PySide6` · `Kotlin` · `SQLite` · `Cryptography`
+
+[Explore the code and architecture →](https://github.com/shivasathvik44/pswdMngr)
+
+<sub>Active development · Android device validation and end-to-end synchronization testing are ongoing.</sub>
 
 ---
 
-## `~/projects`
+### 02 / [SentinelForge](https://github.com/shivasathvik44/SOC-PROJECT)
 
-### 01 / [CyberShield](https://github.com/shivasathvik44/cybershield44)
+**From Linux activity to security incidents you can investigate.**
 
-**Threat intelligence and vulnerability analysis, in one place.**
+A self-hosted security operations platform that collects host telemetry, detects suspicious behavior, and turns related alerts into incident timelines with supporting evidence.
 
-A full-stack security operations project for exploring vulnerability data, checking IP reputation, and making threat information easier to work with.
+- Normalizes Linux authentication logs and **eBPF** process/network telemetry.
+- Maps detections to **MITRE ATT&CK** and correlates alerts into incidents.
+- Includes an investigation dashboard, human-approved containment actions, and synthetic detection validation.
 
-- **Threat data:** CVE search, IP reputation checks, threat scoring, and intelligence feeds.
-- **Access:** JWT authentication and role-based authorization.
-- **Visibility:** An analytics dashboard for investigating the data.
-- **Backend concerns:** Rate limiting and caching to make repeated requests more manageable.
+`Python` · `Linux` · `eBPF` · `SQLite` · `Detection Engineering`
 
-`React` · `TypeScript` · `Node.js` · `Express` · `PostgreSQL`
-
-**[Browse the repository →](https://github.com/shivasathvik44/cybershield44)**
-
-### 02 / [AFOW](https://github.com/shivasathvik44/AFOW)
-
-**A file organizer that lets you see what will happen before it happens.**
-
-AFOW is a Python utility for sorting messy directories without making file operations feel like a gamble.
-
-- **Organize:** Automatically categorize files in a directory.
-- **Preview:** Use dry-run mode to inspect proposed changes first.
-- **Recover:** Undo support and collision-safe handling to avoid accidental overwrites.
-- **Use locally:** A lightweight Flask web interface.
-- **Test:** Automated checks with Pytest.
-
-`Python` · `Flask` · `Pytest`
-
-**[Browse the repository →](https://github.com/shivasathvik44/AFOW)**
+[Explore the project →](https://github.com/shivasathvik44/SOC-PROJECT)
 
 ---
 
-## `~/toolbox`
+### 03 / [URL-PD](https://github.com/shivasathvik44/URL-PD)
 
-The tools I use or work with, grouped by where they fit rather than by logo.
+**Phishing URL detection with reasons, not just a score.**
 
-| Area | Tools |
-| --- | --- |
+A layered URL-analysis tool that combines quick structural checks, domain intelligence, machine learning, and optional page-content analysis to explain why a URL may be suspicious.
+
+- Examines URL structure alongside **DNS, RDAP/WHOIS, and TLS** signals.
+- Uses a **Random Forest** classifier, with optional local LLM-assisted analysis.
+- Produces evidence-based results, including an **uncertain** outcome when signals are inconclusive.
+
+`Python` · `Machine Learning` · `DNS` · `TLS` · `Threat Analysis`
+
+[Explore the project →](https://github.com/shivasathvik44/URL-PD)
+
+---
+
+## Other work
+
+**[CyberShield](https://github.com/shivasathvik44/cybershield44)** — A full-stack security dashboard for vulnerability intelligence, IP reputation checks, and threat investigation. `React` · `TypeScript` · `Node.js` · `PostgreSQL`
+
+**[AFOW](https://github.com/shivasathvik44/AFOW)** — A Python file organizer with dry-run previews, undo support, and collision-safe handling. `Python` · `Flask` · `Pytest`
+
+---
+
+## Toolbox
+
+| Area | Technologies |
+| :--- | :--- |
 | **Languages** | Python, TypeScript, JavaScript, C, C++, Bash |
-| **Web & APIs** | React, Node.js, Express, Flask, REST APIs |
-| **Data & UI** | PostgreSQL, Tailwind CSS |
-| **Systems & workflow** | Linux, Docker, Git, GitHub, Pytest |
+| **Applications** | FastAPI, React, Node.js, Express, Flask, PySide6 |
+| **Data** | SQLite, PostgreSQL |
+| **Systems & workflow** | Fedora Linux, Docker, Git, GitHub Actions, Pytest |
+| **Security** | Authentication, applied cryptography, network analysis, threat detection |
 
-### Areas I keep coming back to
+## Currently exploring
 
-`Threat intelligence` · `Vulnerability analysis` · `Authentication` · `Access control` · `Networking` · `Filesystems`
-
----
-
-## `~/currently-exploring`
-
-I'm interested in what happens below the application layer. Right now, that means spending more time with:
-
-- **Linux internals:** how the operating system manages processes, files, and resources.
-- **Networking & network security:** understanding how systems communicate and where trust breaks down.
-- **Systems programming:** getting closer to the interfaces and constraints that higher-level tools abstract away.
-- **eBPF & kernel observability:** learning how to inspect system behavior at a lower level.
-- **Security tooling:** turning security concepts into utilities I can build, test, and understand.
+Linux internals, networking, systems programming, and lower-level observability. I'm interested in the boundary between building a system and understanding whether it behaves the way we think it does.
 
 ---
 
-<sub>I'm usually learning something by building it. If you want to talk about a project, security, or systems, [send me an email](mailto:posanishiva6@gmail.com).</sub>
+<sub>Build. Break. Understand. Secure.</sub>
+
+<sub>[GitHub](https://github.com/shivasathvik44) · [Get in touch](mailto:posanishiva6@gmail.com)</sub>
