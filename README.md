@@ -1,3 +1,25 @@
+<!-- ANIMATED PROFILE -->
+
+<div align="center">
+
+<img src="./contrib-heatmap.svg" width="100%" alt="Shiva's animated GitHub contributions" />
+
+<br>
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./shiva-ascii.svg" width="100%" alt="Shiva Sathvik ASCII portrait" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./stats.svg" width="100%" alt="Shiva's GitHub statistics" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<!-- END ANIMATED PROFILE -->
 # Shiva Sathvik
 
 **Software engineering, security, and the systems underneath.**
