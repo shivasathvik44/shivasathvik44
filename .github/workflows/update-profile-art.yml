@@ -2,7 +2,7 @@ name: Update GitHub Profile Art
 
 on:
   schedule:
-    - cron: '17 4 * * *'
+    - cron: '17 4,16 * * *'
   workflow_dispatch:
 
 permissions:
